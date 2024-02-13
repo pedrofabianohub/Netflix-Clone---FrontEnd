@@ -91,6 +91,7 @@ Este projeto foi inspirado na interface do usuário da Netflix.
 
 ## Contato
 
-Criado por <a href="https://github.com/pedrofabianohub" target="_blank" >@pedrofabianohub</a> - Fique à vontade para entrar em contato.
+Criado por [@pedrofabianohub](https://github.com/pedrofabianohub) - Fique à vontade para entrar em contato.
 <br>
-LinkedIn: <a href="https://www.linkedin.com/in/pedrofabianov/" target="_blank"> Pedro Fabiano </a> - Vamos nos conectar!
+<br>
+LinkedIn: [Pedro Fabiano](https://www.linkedin.com/in/pedrofabianov/) - Vamos nos conectar!
