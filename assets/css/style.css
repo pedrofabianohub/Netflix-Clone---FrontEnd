@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+body.bg_login{
+    background-image: url(/assets/imagens/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+
+    padding: 20px;
+    background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0.7) 0%,
+        rgba(0,0,0,0) 100%
+    );
+
+}
+
+.senha{
+
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+#netflixLogo{
+
+    width: 200px;
+    margin: 10px;
+
+}
+
+#login {
+
+    background: rgba(0,0,0,0.7);
+    padding: 75px;
+    border-radius: 5px;
+
+}
+
+#linkAjuda{
+
+    display: flex;
+    justify-content: end;
+
+}
+
+#btnVerSenha{
+
+    position: absolute;
+    z-index: 2;
+    margin-left: 310px;
+    margin-top: 12px;
+
+}
+
+.bi-eye-fill,
+.bi-eye-slash-fill{
+
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+
+}
+
+.btnAssinar{
+
+    display: flex;
+
+}
+
+.links{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+    margin-left: 3px;
+}
+
+.senha{
+
+    background-color: transparent;
+
+}

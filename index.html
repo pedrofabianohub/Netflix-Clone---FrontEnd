@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" type="image/png" href="/assets/imagens/logosite.png">
+</head>
+
+<body class="bg_login">
+
+    <div class="container-fluid">
+        <header class="row">
+            <img id="netflixLogo" src="assets/imagens/logo.png" alt="">
+        </header>
+        <div id="login" class="col-4 offset-4">
+            <h1 class="text-white">Entrar</h1>
+            <br>
+            <form class="">
+                <br>
+                <input required type="email" name="" class="form-control form-control-lg inputs" placeholder="E-mail ou numero de telefone">
+                <br>
+                <div class="senha">
+                    <input required type="password" id="inputSenha" class="form-control form-control-lg inputs" placeholder="Digite sua senha!"> 
+                    <button class="form btn-right bi bi-eye-fill" id="btnVerSenha" type="button"></button>
+                </div>
+                <br>
+                <button class="btn col-12 btn-danger btn-lg">Entrar</button>
+                <div class="col text-center mt-3"><a href="#" class="links">Esqueceu a senha?</a>
+                </div>
+                <div class="row mt-4">
+                    <div class="col text-white">
+                        <input type="checkbox"> Lembrar de mim.
+                    </div>
+                    <div class="col" id="linkAjuda">
+                        <a href="#" class="text-white links">Precisa de ajuda?</a>
+                    </div>
+                        <div class="row mt-4">
+                            <div class="btnAssinar">
+                                <p class="text-white">Novo por aqui?</p><a href="#" class="links">Assine agora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+<script src="/assets/js/script.js"></script>
+</body>
+</html>

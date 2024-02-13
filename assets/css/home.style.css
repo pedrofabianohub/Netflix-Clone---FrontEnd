@@ -1,0 +1,296 @@
+body{
+    background-color: black;
+}
+
+header{
+
+    padding: 20px;
+    background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0.7) 0%,
+        rgba(0,0,0,0.01) 100%
+    );
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+
+}
+
+.degrade{
+
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0.7) 0%,
+        rgba(0,0,0,0.01) 100%
+    );
+    position: absolute;
+    margin-top: -145px;
+    rotate: 180deg;
+    z-index: 2;
+
+} 
+
+.btn-custom-round{
+
+    padding: 5px 9px !important;
+
+}
+
+.menu_list{
+
+    list-style: none;
+    padding-top: 3px;
+
+}
+
+.menu_list li {
+
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 24px;
+
+}
+
+.menu_list li a {
+
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.menu_list :hover {
+
+    color: rgba(255,255,255, 0.5);
+    transform: 1s;
+
+}
+
+#hero{
+
+    height: 700px;
+    background: url(/assets/images/capa-filme.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    padding: 0;
+
+}
+
+#info_hero{
+
+    padding: 0;
+    margin-top: 170px;
+    z-index: 3;
+    position: relative;
+
+}
+
+#info_hero img.logo{
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+#info_hero h1 {
+    margin-bottom: 20px;
+}
+
+#info_hero h1 img {
+    width: 35px;
+    margin-top: -10px;
+}
+
+.main-content{
+    margin-top: 720px;
+}
+
+.txt-populares{
+    margin-left: 20px;
+}
+
+.lista{
+
+    overflow-x: scroll;
+    list-style: none;
+    padding: 0;
+    white-space: nowrap;
+    padding: 20px 0;
+    display: block;
+    border: 1px solid transparent;
+
+}
+
+.lista li:first-child {
+    margin-left: 20px;
+}
+
+.lista::-webkit-scrollbar {
+    display: none;
+}
+
+.item{
+
+    display: inline-block;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow: auto;
+    border: 1px solid transparent;
+    overflow-x: hidden;
+
+}
+
+.item :hover {
+
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 999;
+    transition: .5s;
+    
+}
+
+.item:hover .item-info {
+    animation: myAnim .5s ease 0s 1 normal forwards;
+    transform: scale(1);
+}
+
+.item-info :hover{
+    transform: none;
+}
+
+.item-info {
+    background-color: #171717;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    transform: scale(0);
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+.item-info .col12{
+    margin-top: 5px;
+}
+
+.item-info .col-12:first-child {
+    margin-bottom: 20px;
+}
+
+.item-info p {
+    color: #7e7b7b;
+    font-size: 12px;
+}
+
+.item-info p text {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+section{
+    margin-bottom: -130px;
+    position: relative;
+}
+
+section:hover {
+    z-index: 999;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateY(-30px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.modal-dialog, .modal-content{
+    background-color: #171717;
+}
+
+.modal-dialog{
+    max-width: 600px;
+}
+
+.modal-hero{
+    position: relative;
+    height: 300px;
+    background-image: url(/assets/images/filmes/fundoMaluco.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.modal-hero .gradient-cover {
+    content: '';
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(180deg, rgba(23,23,23,0) 0%, #171717 100%);
+    z-index: 1;
+}
+
+.modal-hero img {
+
+    width: 250px;
+    margin-top: 40px;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.modal-hero button {
+    margin-right: 20px;
+}
+
+.modal-descicao{
+    font-size: 16px;
+    color: #fff;
+}
+
+.modal-elenco{
+    font-size: 12px;
+    color: rgba(255,255,255, 0.55);
+}
+
+.modal-elenco text {
+    color: #fff;
+}
+
+.modal-hero-infos{
+    position: relative;
+    z-index: 2;
+}
+
+.lista-ep{
+    list-style: none;
+    padding: 0;
+}
+
+.lista-ep li:hover {
+    cursor: pointer;
+    background-color: rgba(255,255,255, 0.05);
+}
+
+.lista-ep li{
+    padding: 20px;
+}
+
+.lista-ep li{
+    color: cadetblue !important; 
+    font-size: 12px;
+}
