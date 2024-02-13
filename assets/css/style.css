@@ -5,7 +5,7 @@ body {
 }
 
 body.bg_login{
-    background-image: url(/assets/imagens/background.png);
+    background-image: url(/assets/images/background.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -39,7 +39,7 @@ header{
 #login {
 
     background: rgba(0,0,0,0.7);
-    padding: 75px;
+    padding: 70px;
     border-radius: 5px;
 
 }
@@ -54,9 +54,10 @@ header{
 #btnVerSenha{
 
     position: absolute;
-    z-index: 2;
-    margin-left: 310px;
-    margin-top: 12px;
+    z-index: 9;
+    margin-left: 275px;
+    margin-top: 11px;
+    font-size: 16px;
 
 }
 
